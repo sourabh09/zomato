@@ -28,7 +28,7 @@ padding:15px;
 color: #FFF;
 margin-bottom:10px;
 text-align: center;
-font-family: 'Damion', cursive;
+font-family: 'Sriracha', cursive;
 }
 
 .restaurant{
@@ -39,7 +39,8 @@ font-family: 'Damion', cursive;
   border-radius: 10px;
   color: #FFF;
   font-size: 18px;
-  line-height: 1.5
+  line-height: 1.5;
+  font-family: 'Space Mono', monospace;
 }
 
 .submitform{
@@ -66,4 +67,5 @@ font-family: 'Damion', cursive;
   color: #777777;
   padding: 10px;
   margin-bottom: 10px;
+  font-family: 'Space Mono', monospace;
 }
