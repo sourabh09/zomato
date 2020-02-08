@@ -16,6 +16,19 @@ $( document ).ready(function() {
     lat = position.coords.latitude;
     lon = position.coords.longitude;
 
+    $.ajax({
+            url: 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+lat+", "+lon+'&sensor=true&key=AIzaSyD98TIgEeJkaKcioLj-s2hgbBeWCV1tUQE', 
+            success: function(data) {
+
+                console.log(data);
+                console.log(data.results[2].formatted_address);
+                $('#location').html("<i class='fa fa-map-marker'></i> "+data.results[2].formatted_address);
+
+                //process the JSON data etc
+        }
+
+        })
+
     getPlaces();
     //alert(lat+", "+lon); 
 }
