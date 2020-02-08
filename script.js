@@ -16,6 +16,7 @@ $( document ).ready(function() {
     lat = position.coords.latitude;
     lon = position.coords.longitude;
 
+    getPlaces();
     //alert(lat+", "+lon); 
 }
 
