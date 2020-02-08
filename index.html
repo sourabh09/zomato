@@ -18,7 +18,7 @@
   <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body onload="getPlaces()">
+<body>
 <header>Zomato status</header>
 <div class="submitform">
 <form action="javascript:void(0);">
@@ -33,12 +33,20 @@
 </div>
 <div class="root"></div>
 
+<!--  <div class="refresh">
+ <button id="refresh" onclick="getPlaces()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  REFRESH
+</button>
+</div> -->
+
  <div class="deletebutton">
  <button id="deletebutton" onclick="deleteplaces()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
   Delete all
 </button>
-<div id="demo"></div>
 </div>
+
+
+<div id="demo"></div>
 </body>
  
 </html>
