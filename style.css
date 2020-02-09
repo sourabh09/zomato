@@ -50,10 +50,12 @@ font-family: 'Sriracha', cursive;
 
 .cl1{
   color: #00FF00;
+  text-shadow: 1px 1px 12px #00FF00;
 }
 
 .cl0{
   color: #FF0000;
+  text-shadow: 1px 1px 12px #FF0000;
 }
 
 .deletebutton{
